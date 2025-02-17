@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Professional Personal Website" />
+  <meta name="keywords" content="Portfolio, Data Science, Projects, Blog" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>تركي المطيري - الصفحة الشخصية</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>تركي</h1>
+    <p class="tagline">Data Scientist</p>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- قسم About -->
+    <section id="about">
+      <h2>من أنا</h2>
+      <p>انا تركي المطيري مهتم بعلوم البيانات والذكاء الاصطناعي طالب جامعي شغوف بتعلم المجال انشر هنا اهتمامي</p>
+    </section>
+
+    <!-- قسم Portfolio -->
+    <section id="portfolio">
+      <h2>أعمالي</h2>
+      <div class="projects">
+        <!-- المشروع الأول -->
+        <article class="project">
+          <img src="Calc.jpg" alt="صورة للمشروع الأول" />
+          <h3>Account Management System with Calculator</h3>
+          <p>
+            This is a Java-based application that combines account management 
+            with a calculator feature. Users can create accounts, log in, 
+            and then access a calculator for basic arithmetic operations.
+          </p>
+        </article>
+
+        <!-- المشروع الثاني -->
+        <article class="project">
+          <img src="university.jpg" alt="صورة للمشروع الثاني" />
+          <h3>University System</h3>
+          <p>
+            This project is a University System built in Java, 
+            showcasing OOP principles. It allows users to manage student info 
+            (create, update, delete, display) and interact with various features.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- قسم Blog -->
+    <section id="blog">
+      <h2>المدونة</h2>
+      <article>
+        <h3>قريباً</h3>
+        <p>انتظروني!</p>
+      </article>
+    </section>
+
+    <!-- قسم Contact -->
+    <section id="contact">
+      <h2>تواصل معي</h2>
+      <form id="contactForm">
+        <label for="name">الاسم:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">الإيميل:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">الرسالة:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">إرسال</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 تركي المطيري. كل الحقوق محفوظة.</p>
+    <ul class="social-links">
+      <li>
+        <a href="https://www.linkedin.com/in/turki-al-mutairi-1486b3244/" target="_blank">
+          linkedin
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/fx.rg13/" target="_blank">
+          instagram
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/turki013" target="_blank">
+          GitHub
+        </a>
+      </li>
+    </ul>
+  </footer>
+
+  <!-- ملف سكربت JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
+
